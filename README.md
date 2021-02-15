@@ -1,39 +1,16 @@
 # Archy-Tournament
-Scoreboard of a game named Archy Tournament
-# Ecommerce-Backend-Project
 
-In this project, I have made a backend of an e-commerce website using Express framework of NodeJS. We are already given the mysql-database in which there are different tables and their data. We've to write different queries for different endpoints to make them working.
+In this project, I have made a Scoreboard of a game named as Archy Tournament using Python. The team names and participants names are in json file. There are 2 teams and 2 players for each team. In scoreboard we can see individual players, teams and bonus scores. You need to give input for the archery board which has 5 concentric circles of A, B, C, D, E, F whose values are 5, 4, 3, 2, 1 respectively. Points for every circle increase by 1 at every round. For example, In the 4th round, A will carry 8 points while E will carry 4 points. Hitting outside the board (F) will always be 0. 
+If both archers in a team hit the same circle in a round, a bonus 2 points are given to the team for synchronicity. 
+The game finishes when one team reaches 60 points. If more than one team cross 60 points in a round, the team with the highest score wins.
 
 ## Requirements
 
-Installation process and Execution First, If you'are using Linux-based-OS, open your terminal and install the latest version of NodeJS and npm. You do also need to install mysql database onto your system. by writing the following commands. This will install NodeJS version-12 and npm version-6 on your system.
+Installation process and Execution First, If you'are using Linux-based-OS, open your terminal and install the latest version of Python and npm by writing the following commands. This will install Python version-3.8.2 on your system.
 
 bash
-$ sudo apt install nodejs
+$ sudo apt install python3.8
 
-
-bash
-$ sudo npm install express --save
-
-
-Next, you've to install mysql-database onto your system. For this, write these following commands on your terminal.
-
-bash
-$ sudo apt-get update
-
-bash
-$ sudo apt-get install mysql-server
-
-
-Next, you need to install some NPM on your project.
-
-
-You can also check the version of NodeJS and npm by writing, node -v and npm -v on the terminal respectively. Next, you need to make a clone of this repository and get into the repository on your terminal. Now, you need to install the required dependencies from your package.json file. For this, you've to write sudo npm install.
-
-Next, navigate to the folder where, index.js file is located. You can start the local server by writing node index.js on the terminal. You can always kill your running port by writing, killall -9 node on the terminal. Now, you need to install postman, that helps you to develop APIs and getting responses from it, by writing the following commands on your terminal.
-
-bash
-$ sudo apt-get install snap $ snap install postman
-
+You can also check the version of Python and npm by writing, python3 -v and npm -v on the terminal respectively. 
 
 Happy Coding :)
