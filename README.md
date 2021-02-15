@@ -11,6 +11,10 @@ Installation process and Execution First, If you'are using Linux-based-OS, open 
 bash
 $ sudo apt install python3.8
 
+bash
+$ sudo apt-get install snap $ snap install postman
+
+
 You can also check the version of Python and npm by writing, python3 -v and npm -v on the terminal respectively. 
 
 Happy Coding :)
