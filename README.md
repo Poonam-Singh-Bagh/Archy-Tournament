@@ -6,11 +6,11 @@ The game finishes when one team reaches 60 points. If more than one team cross 6
 
 ## Requirements
 
-Installation process and Execution First, If you'are using Linux-based-OS, open your terminal and install the latest version of Python and npm by writing the following commands. This will install Python version-3.8.2 on your system.
+Installation process and Execution First, If you'are using Linux-based-OS, open your terminal and install the latest version of Python by writing the following commands. This will install Python version-3.8.2 on your system.
 
 bash
 $ sudo apt install python3.8
 
-You can also check the version of Python and npm by writing, python3 -v and npm -v on the terminal respectively. 
+You can also check the version of Python by writing, python3 -v on the terminal. 
 
 Happy Coding :)
