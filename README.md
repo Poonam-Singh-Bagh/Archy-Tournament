@@ -11,14 +11,6 @@ Installation process and Execution First, If you'are using Linux-based-OS, open 
 bash
 $ sudo apt install python3.8
 
-bash
-$ sudo apt install nodejs
-
-
-bash
-$ sudo npm install express --save
-
-
 You can also check the version of Python by writing, python3 -v on the terminal. 
 
 Happy Coding :)
